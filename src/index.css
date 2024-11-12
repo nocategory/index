@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-zinc-700;
+  }
+}
+
+@layer utilities {
+  .font-mono {
+    font-family: "JetBrains Mono", monospace;
+  }
+}
+
+footer a, footer a:hover {
+  text-decoration-color: rgb(16, 162, 245);
+  text-decoration-line: underline;
+}
