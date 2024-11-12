@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
+import { useState } from 'react';
 import SocialLinks from './components/SocialLinks';
 
 function App() {
@@ -8,49 +8,52 @@ function App() {
   const workHistory = {
     recent: [
       {
-        title: "Developer",
-        company: "Marzee",
-        period: "Mar 2022 - Present",
-        description: "Developing and crafting apps for clients including Malaria No More, CreativStrategies, and Canal River Trust."
+        title: 'Developer',
+        company: 'Marzee',
+        period: 'Mar 2022 - Present',
+        description:
+          'Developing and crafting apps for clients including Malaria No More, CreativStrategies, and Canal River Trust.',
       },
       {
-        title: "Advisor",
-        company: "Polywork",
-        period: "Feb 2021 - Present",
-        description: "Providing technical guidance and strategic advice."
-      }
+        title: 'Advisor',
+        company: 'Polywork',
+        period: 'Feb 2021 - Present',
+        description: 'Providing technical guidance and strategic advice.',
+      },
     ],
     all: [
       {
-        title: "Developer",
-        company: "Marzee",
-        period: "Mar 2022 - Present",
-        description: "Developing and crafting apps for clients including Malaria No More, CreativStrategies, and Canal River Trust."
+        title: 'Developer',
+        company: 'Marzee',
+        period: 'Mar 2022 - Present',
+        description:
+          'Developing and crafting apps for clients including Malaria No More, CreativStrategies, and Canal River Trust.',
       },
       {
-        title: "Advisor",
-        company: "Polywork",
-        period: "Feb 2021 - Present",
-        description: "Providing technical guidance and strategic advice."
+        title: 'Advisor',
+        company: 'Polywork',
+        period: 'Feb 2021 - Present',
+        description: 'Providing technical guidance and strategic advice.',
       },
       {
-        title: "Software Developer",
-        company: "Devv",
-        period: "Jan 2019 - Feb 2019",
-        description: "Full-Stack Development"
+        title: 'Software Developer',
+        company: 'Devv',
+        period: 'Jan 2019 - Feb 2019',
+        description: 'Full-Stack Development',
       },
       {
-        title: "Frontend Developer",
-        company: "REBIS Consulting",
-        period: "Sep 2017 - Aug 2018",
-        description: "Built websites and tools using HTML/CSS/JS, PHP, SAP Lumira, and Java for companies like Jerónimo Martins."
-      }
-    ]
+        title: 'Frontend Developer',
+        company: 'REBIS Consulting',
+        period: 'Sep 2017 - Aug 2018',
+        description:
+          'Built websites and tools using HTML/CSS/JS, PHP, SAP Lumira, and Java for companies like Jerónimo Martins.',
+      },
+    ],
   };
 
   return (
     <div className="min-h-screen bg-zinc-900 text-zinc-100 font-mono p-8">
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-3xl mx-auto flex flex-col h-full min-h-screen">
         {/* Header Section */}
         <header className="flex flex-col md:flex-row items-start gap-8 mb-16">
           <div className="flex-1">
@@ -70,7 +73,7 @@ function App() {
         </header>
 
         {/* Main Content */}
-        <main className="space-y-12">
+        <main className="space-y-12 flex-1">
           <section className="space-y-4">
             <p className="text-lg leading-relaxed">
               Hi there! I'm João, a passionate coder who loves creating neat UI
@@ -121,7 +124,7 @@ function App() {
             </div>
           </section>
         </main>
-        <footer>
+        <footer className="mt-12">
           © 2024 João Salgueiro.{' '}
           <a href="https://github.com/nocategory/index">
             This site is open source
