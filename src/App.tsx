@@ -65,7 +65,7 @@ function App() {
           </div>
           <div className="w-48 h-48 rounded-full overflow-hidden ring-4 ring-zinc-800 flex-shrink-0">
             <img
-              src="https://cdn.bsky.app/img/avatar/plain/did:plc:gjzsxtuednfmy7azhdl5phgn/bafkreih7ao4je2c7sdapfhyrkmlkktg4li3mmj35ukphhm7h43sshkm67m@jpeg"
+              src="https://cdn.bsky.app/img/avatar/plain/did:plc:gjzsxtuednfmy7azhdl5phgn/bafkreiccgiuhyfyovwqnsoagff7uyhdmnzu6ramfmcsiuzdxzavirizw2y@jpeg"
               alt="João Salgueiro"
               className="w-full h-full object-cover"
             />
