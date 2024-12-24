@@ -25,9 +25,9 @@ function App() {
       {
         title: 'Developer',
         company: 'Marzee',
-        period: 'Mar 2022 - Present',
+        period: 'Mar 2022 - Dec 2024',
         description:
-          'Developing and crafting apps for clients including Malaria No More, CreativStrategies, and Canal River Trust.',
+          'Developing and crafting apps for clients such as Malaria No More, CreativStrategies, the International Labour Organization and Canal River Trust.',
       },
       {
         title: 'Advisor',
